@@ -3,7 +3,53 @@
     <style name="Base.Theme.MovieClub" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorSecondaryVariant">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
     </style>
 
     <style name="Theme.MovieClub" parent="Base.Theme.MovieClub" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="HeaderText">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TitleText">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="DescriptionText">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Theme.App.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlActivated">@color/primary_color</item>
+        <item name="colorControlHighlight">@color/primary_color</item>
+    </style>
+
+    <style name="RadioButton.Search" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="buttonTint">@color/primary_color</item>
+    </style>
+
+    <style name="ThemeOverlay.AppTheme.TextInputEditText.Outlined" parent="">
+        <item name="colorControlActivated">@color/primary_color</item>
+    </style>
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/primary_color</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+
 </resources>

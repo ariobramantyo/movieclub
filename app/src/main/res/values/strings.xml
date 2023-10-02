@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">MovieClub</string>
+    <string name="app_name">Movie Club</string>
+    <string name="dummy_title">Inception (2010)</string>
+    <string name="dummy_date">16 Juli 2010</string>
+    <string name="dummy_vote_avg">8.0</string>
+    <string name="dummy_popularity">200000</string>
+    <string name="dummy_vote_count">3005</string>
+    <string name="search_hint">Search something…</string>
+    <string name="tab_text_1">Movie</string>
+    <string name="tab_text_2">Tv Show</string>
+    <string name="lorem40">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus, viverra vitae congue eu, consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus, viverra vitae congue eu, consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus</string>
+    <string name="title_favorite">Favorite</string>
 </resources>
